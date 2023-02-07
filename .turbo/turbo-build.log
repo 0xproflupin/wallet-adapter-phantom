@@ -1,0 +1,48 @@
+
+> @solana/wallet-adapter-example@0.18.18 build /Users/anvitmangal/Desktop/wallet-adapter/packages/starter/example
+> tsc --build --verbose && next build
+
+11:44:18 PM - Projects in this build: 
+    * tsconfig.json
+
+11:44:18 PM - Project 'tsconfig.json' is out of date because output file 'lib/src/components/AutoConnectProvider.jsx' does not exist
+
+11:44:18 PM - Building project '/Users/anvitmangal/Desktop/wallet-adapter/packages/starter/example/tsconfig.json'...
+
+warn  - Invalid next.config.js options detected: 
+  - The root value has an unexpected property, webpackDevMiddleware, which is not in the list of allowed properties (amp, analyticsId, assetPrefix, basePath, cleanDistDir, compiler, compress, crossOrigin, devIndicators, distDir, env, eslint, excludeDefaultMomentLocales, experimental, exportPathMap, future, generateBuildId, generateEtags, headers, httpAgentOptions, i18n, images, onDemandEntries, optimizeFonts, output, outputFileTracing, pageExtensions, poweredByHeader, productionBrowserSourceMaps, publicRuntimeConfig, reactStrictMode, redirects, rewrites, sassOptions, serverRuntimeConfig, staticPageGenerationTimeout, swcMinify, trailingSlash, typescript, useFileSystemPublicRoutes, webpack).
+  - The root value has an unexpected property, configOrigin, which is not in the list of allowed properties (amp, analyticsId, assetPrefix, basePath, cleanDistDir, compiler, compress, crossOrigin, devIndicators, distDir, env, eslint, excludeDefaultMomentLocales, experimental, exportPathMap, future, generateBuildId, generateEtags, headers, httpAgentOptions, i18n, images, onDemandEntries, optimizeFonts, output, outputFileTracing, pageExtensions, poweredByHeader, productionBrowserSourceMaps, publicRuntimeConfig, reactStrictMode, redirects, rewrites, sassOptions, serverRuntimeConfig, staticPageGenerationTimeout, swcMinify, trailingSlash, typescript, useFileSystemPublicRoutes, webpack).
+  - The root value has an unexpected property, target, which is not in the list of allowed properties (amp, analyticsId, assetPrefix, basePath, cleanDistDir, compiler, compress, crossOrigin, devIndicators, distDir, env, eslint, excludeDefaultMomentLocales, experimental, exportPathMap, future, generateBuildId, generateEtags, headers, httpAgentOptions, i18n, images, onDemandEntries, optimizeFonts, output, outputFileTracing, pageExtensions, poweredByHeader, productionBrowserSourceMaps, publicRuntimeConfig, reactStrictMode, redirects, rewrites, sassOptions, serverRuntimeConfig, staticPageGenerationTimeout, swcMinify, trailingSlash, typescript, useFileSystemPublicRoutes, webpack).
+  - The root value has an unexpected property, webpack5, which is not in the list of allowed properties (amp, analyticsId, assetPrefix, basePath, cleanDistDir, compiler, compress, crossOrigin, devIndicators, distDir, env, eslint, excludeDefaultMomentLocales, experimental, exportPathMap, future, generateBuildId, generateEtags, headers, httpAgentOptions, i18n, images, onDemandEntries, optimizeFonts, output, outputFileTracing, pageExtensions, poweredByHeader, productionBrowserSourceMaps, publicRuntimeConfig, reactStrictMode, redirects, rewrites, sassOptions, serverRuntimeConfig, staticPageGenerationTimeout, swcMinify, trailingSlash, typescript, useFileSystemPublicRoutes, webpack).
+  - The root value has an unexpected property, modifyVars, which is not in the list of allowed properties (amp, analyticsId, assetPrefix, basePath, cleanDistDir, compiler, compress, crossOrigin, devIndicators, distDir, env, eslint, excludeDefaultMomentLocales, experimental, exportPathMap, future, generateBuildId, generateEtags, headers, httpAgentOptions, i18n, images, onDemandEntries, optimizeFonts, output, outputFileTracing, pageExtensions, poweredByHeader, productionBrowserSourceMaps, publicRuntimeConfig, reactStrictMode, redirects, rewrites, sassOptions, serverRuntimeConfig, staticPageGenerationTimeout, swcMinify, trailingSlash, typescript, useFileSystemPublicRoutes, webpack).
+  - The value at .amp.canonicalBase must be 1 character or more but it was 0 characters.
+  - The value at .assetPrefix must be 1 character or more but it was 0 characters.
+  - The value at .experimental.outputFileTracingRoot must be 1 character or more but it was 0 characters.
+  - The value at .i18n must be an object but it was null.
+
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+info  - Linting and checking validity of types...
+warn  - TypeScript project references are not fully supported. Attempting to build in incremental mode.
+info  - Creating an optimized production build...
+info  - Compiled successfully
+info  - Collecting page data...
+info  - Generating static pages (0/3)
+Your application is presently configured to use the `UnsafeBurnerWalletAdapter`. Find and remove it, then replace it with a list of adapters for wallets you would like your application to support. See https://github.com/solana-labs/wallet-adapter#usage for an example.
+Your application is presently configured to use the `UnsafeBurnerWalletAdapter`. Find and remove it, then replace it with a list of adapters for wallets you would like your application to support. See https://github.com/solana-labs/wallet-adapter#usage for an example.
+Your application is presently configured to use the `UnsafeBurnerWalletAdapter`. Find and remove it, then replace it with a list of adapters for wallets you would like your application to support. See https://github.com/solana-labs/wallet-adapter#usage for an example.
+info  - Generating static pages (3/3)
+info  - Finalizing page optimization...
+
+Route (pages)                              Size     First Load JS
+┌ ○ / (5849 ms)                            19.5 kB         325 kB
+├   /_app                                  0 B             305 kB
+└ ○ /404                                   194 B           305 kB
++ First Load JS shared by all              377 kB
+  ├ chunks/framework-bba6376eff72e8d8.js   45.2 kB
+  ├ chunks/main-7c20101d7d14cd78.js        31.1 kB
+  ├ chunks/pages/_app-6967466a227c9122.js  227 kB
+  ├ chunks/webpack-b7242747ef6163f5.js     2.04 kB
+  └ css/f048ed91c4b0197c.css               71.3 kB
+
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+
